@@ -1,5 +1,5 @@
 export default {
-  title: 'dark',
+  title: 'Dark',
   colors: {
     inputBackground: '#696CA0',
     headerBackground: '#0B2161',

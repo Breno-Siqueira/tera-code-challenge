@@ -18,13 +18,13 @@ function App() {
   const [theme, setTheme] = useState(light);
 
   const changeTheme = () => {
-    setTheme(theme.title === 'light' ? dark : light)
+    setTheme(theme.title === 'Light' ? dark : light)
   }
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Router>
-        <Header changeTheme={changeTheme} />
+        <Header changeTheme={changeTheme} theme={theme} />
         <div>
           <Switch>
             <Route path="/book/:id">

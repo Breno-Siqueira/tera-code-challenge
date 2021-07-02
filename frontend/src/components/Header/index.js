@@ -1,10 +1,9 @@
 import { Container } from "./styles";
 function Header(props) {
-  console.log('props', props)
   return (
     <Container {...props}>
       <p>Livraria do cowboy</p>
-      <p onClick={() => props.changeTheme()}>Theme</p>
+      <p onClick={() => props.changeTheme()}>{props.theme.title} Mode</p>
     </Container>
   )
 }

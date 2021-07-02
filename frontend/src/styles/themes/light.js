@@ -1,5 +1,5 @@
 export default {
-  title: 'light',
+  title: 'Light',
   colors: {
     inputBackground: 'white',
     headerBackground: '#01DFD7',
